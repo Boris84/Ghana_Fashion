@@ -1,0 +1,38 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	
+}
+
+header {
+   color: black;
+   display: flex;
+   justify-content: center;
+   font-family: 'open sans';
+   font-size: 3rem;
+}
+
+header img {
+   display: flex;
+   position: relative;
+   top: 19px;
+   height: 33px;
+   width: 40px;
+  
+
+}
+.image {
+	display: flex;
+   justify-content: center;
+}
+
+h1 {
+   font-weight: bold;
+}
+
+
+h1 .copy {
+   font-size: 20px;
+}
