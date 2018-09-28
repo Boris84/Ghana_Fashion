@@ -6,9 +6,23 @@ body {
 	
 }
 
+nav {
+   display: flex;
+   padding-top: 10px;
+   justify-content: space-around;
+}
+
+.nav-bar a {
+   color: black;
+   font-weight: bold;
+   font-family: 'open sans';
+   font-size: 1.3rem;
+}
+
 header {
    color: black;
    display: flex;
+   padding-top: 20px;
    justify-content: center;
    font-family: 'open sans';
    font-size: 3rem;
@@ -22,24 +36,3 @@ h1 .copy {
    font-size: 20px;
 }
 
-.flags {
-   display: flex;
-   margin-top: -60px;
-   margin-bottom: 80px;
-   justify-content: space-around;
-}
-
-.flags img {
-   height: 70px;
-   width: 70px;
-}
-
-.stadium {
-   display: flex;
-   justify-content: center;
-}
-
-.stadium img {
-   height: 400px;
-   width: 800px;
-}
