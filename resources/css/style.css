@@ -9,7 +9,7 @@ body {
 nav {
    display: flex;
    padding-top: 10px;
-   justify-content: space-around;
+   justify-content: space-evenly;
 }
 
 .nav-bar a {
@@ -17,6 +17,11 @@ nav {
    font-weight: bold;
    font-family: 'open sans';
    font-size: 1.3rem;
+}
+
+.nav-bar a:hover {
+   color: blue;
+   transition: all 200ms ease-out;
 }
 
 header {
@@ -28,11 +33,23 @@ header {
    font-size: 3rem;
 }
 
+figure {
+   text-align: center;
+}
+
+img {
+   width: 60%;
+   height: auto;
+   border: solid 2px black;
+}
+
 h1 {
    font-weight: bold;
+   color: black;
 }
 
 h1 .copy {
+   position: relative;
    font-size: 20px;
+   bottom: 15px;
 }
-
