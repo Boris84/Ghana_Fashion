@@ -27,9 +27,9 @@ nav {
 header {
    color: black;
    display: flex;
-   padding-top: 20px;
    justify-content: center;
    font-family: 'open sans';
+   margin-bottom: 50px;
    font-size: 3rem;
 }
 
