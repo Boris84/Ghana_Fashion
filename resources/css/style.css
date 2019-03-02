@@ -3,7 +3,10 @@ html {
 }
 
 header {
-	padding-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
 }
 
+.navbar-brand {
+	font-size: 1rem;
+}
